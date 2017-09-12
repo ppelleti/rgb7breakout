@@ -426,4 +426,25 @@ F 3 "" H 6400 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 2050 6400 2150
+$Comp
+L R R?
+U 1 1 59B7A418
+P 2450 4450
+F 0 "R?" V 2530 4450 50  0000 C CNN
+F 1 "10k" V 2450 4450 50  0000 C CNN
+F 2 "" V 2380 4450 50  0001 C CNN
+F 3 "" H 2450 4450 50  0001 C CNN
+F 4 "MF-RES-0603-10K" H 2450 4450 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "Resistor Thick Film 0603 10K Ohm 5% 100mW 75V" H 2450 4450 60  0001 C CNN "Description"
+	1    2450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4300 2450 3800
+Connection ~ 2450 3800
+Wire Wire Line
+	2450 4600 2450 4700
+Wire Wire Line
+	2450 4700 2300 4700
+Connection ~ 2300 4700
 $EndSCHEMATC
