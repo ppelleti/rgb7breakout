@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD-121F2
+D Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode
+K RGB LED digit
+F http://usasyck.com/products/AD-121F2_cat_e.pdf
+$ENDCMP
+#
+$CMP TLC5947DAP
+D 24-Channel, 12-Bit PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5947RHB
+D 24-Channel, 12-Bit PWM LED Driver, QFN
+K PWM LED driver QFN
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+#End Doc Library
