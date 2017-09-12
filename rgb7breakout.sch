@@ -370,8 +370,8 @@ F 0 "C?" H 6425 2000 50  0000 L CNN
 F 1 "100uF" H 6425 1800 50  0000 L CNN
 F 2 "" H 6400 1900 50  0001 C CNN
 F 3 "" H 6400 1900 50  0001 C CNN
-F 4 "107SML016M" H 6400 1900 60  0001 C CNN "ManufacturerPartNumber"
-F 5 "CAP ALUM 100UF 20% 16V SMD" H 6400 1900 60  0001 C CNN "Description"
+F 4 "MF-CAP-6.3MM-100uF" H 6400 1900 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "Capacitor Aluminum Electrolytic 6.3mm 100uF 20% 35V" H 6400 1900 60  0001 C CNN "Description"
 	1    6400 1900
 	1    0    0    -1  
 $EndComp
@@ -399,6 +399,8 @@ F 0 "C?" H 2725 5250 50  0000 L CNN
 F 1 "0.1uF" H 2725 5050 50  0000 L CNN
 F 2 "" H 2738 5000 50  0001 C CNN
 F 3 "" H 2700 5150 50  0001 C CNN
+F 4 "MF-CAP-0603-0.1uF" H 2700 5150 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "Capacitor MLCC 0603 0.1uF 10% 25V" H 2700 5150 60  0001 C CNN "Description"
 	1    2700 5150
 	1    0    0    -1  
 $EndComp
