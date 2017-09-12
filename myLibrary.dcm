@@ -6,6 +6,10 @@ K RGB LED digit
 F http://usasyck.com/products/AD-121F2_cat_e.pdf
 $ENDCMP
 #
+$CMP RGB7Breakout_Connector
+D pin header for connecting to the board
+$ENDCMP
+#
 $CMP TLC5947DAP
 D 24-Channel, 12-Bit PWM LED Driver, HTSSOP
 K PWM LED driver HTSSOP
