@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -60,7 +60,7 @@
     (mod_text_width 0.15)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
@@ -127,12 +127,11 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.25)
+    (trace_width 0.2)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net /VLED)
     (add_net GND)
     (add_net "Net-(D1-Pad1)")
     (add_net "Net-(D1-Pad10)")
@@ -165,6 +164,16 @@
     (add_net "Net-(J1-Pad5)")
     (add_net "Net-(R1-Pad1)")
     (add_net VCC)
+  )
+
+  (net_class Power ""
+    (clearance 0.2)
+    (trace_width 0.5)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net /VLED)
   )
 
   (module Capacitors_SMD:CP_Elec_6.3x7.7 (layer B.Cu) (tedit 58AA8B76) (tstamp 59B82B97)
