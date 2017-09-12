@@ -172,4 +172,138 @@ $EndComp
 Wire Wire Line
 	2700 3700 2800 3700
 Connection ~ 2300 3700
+Wire Wire Line
+	4200 2800 5500 2800
+Wire Wire Line
+	5500 2800 5500 3700
+Wire Wire Line
+	5500 3700 5950 3700
+Wire Wire Line
+	4200 2900 5400 2900
+Wire Wire Line
+	5400 2900 5400 3800
+Wire Wire Line
+	5400 3800 5950 3800
+Wire Wire Line
+	4200 3000 5300 3000
+Wire Wire Line
+	5300 3000 5300 3900
+Wire Wire Line
+	5300 3900 5950 3900
+Wire Wire Line
+	4200 3100 5200 3100
+Wire Wire Line
+	5200 3100 5200 4000
+Wire Wire Line
+	5200 4000 5950 4000
+Wire Wire Line
+	4200 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 4100
+Wire Wire Line
+	5100 4100 5950 4100
+Wire Wire Line
+	4200 3300 5000 3300
+Wire Wire Line
+	5000 3300 5000 4200
+Wire Wire Line
+	5000 4200 5950 4200
+Wire Wire Line
+	4200 3400 4900 3400
+Wire Wire Line
+	4900 3400 4900 4300
+Wire Wire Line
+	4900 4300 5950 4300
+Wire Wire Line
+	4200 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 4400
+Wire Wire Line
+	4800 4400 5950 4400
+Wire Wire Line
+	4200 3600 4700 3600
+Wire Wire Line
+	4700 3600 4700 4500
+Wire Wire Line
+	4700 4500 5950 4500
+Wire Wire Line
+	4200 3700 4600 3700
+Wire Wire Line
+	4600 3700 4600 2700
+Wire Wire Line
+	4600 2700 8100 2700
+Wire Wire Line
+	8100 2700 8100 3400
+Wire Wire Line
+	8100 3400 7950 3400
+Wire Wire Line
+	4200 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 2600
+Wire Wire Line
+	4500 2600 8200 2600
+Wire Wire Line
+	8200 2600 8200 3500
+Wire Wire Line
+	8200 3500 7950 3500
+Wire Wire Line
+	4200 3900 4400 3900
+Wire Wire Line
+	4400 3900 4400 2500
+Wire Wire Line
+	4400 2500 8300 2500
+Wire Wire Line
+	8300 2500 8300 3600
+Wire Wire Line
+	8300 3600 7950 3600
+Wire Wire Line
+	4200 4000 4300 4000
+Wire Wire Line
+	4300 4000 4300 2400
+Wire Wire Line
+	4300 2400 8400 2400
+Wire Wire Line
+	8400 2400 8400 3700
+Wire Wire Line
+	8400 3700 7950 3700
+Wire Wire Line
+	4200 4100 4600 4100
+Wire Wire Line
+	4600 4100 4600 4700
+Wire Wire Line
+	4600 4700 8100 4700
+Wire Wire Line
+	8100 4700 8100 3800
+Wire Wire Line
+	8100 3800 7950 3800
+Wire Wire Line
+	4200 4200 4500 4200
+Wire Wire Line
+	4500 4200 4500 4800
+Wire Wire Line
+	4500 4800 8200 4800
+Wire Wire Line
+	8200 4800 8200 3900
+Wire Wire Line
+	8200 3900 7950 3900
+Wire Wire Line
+	4200 4300 4400 4300
+Wire Wire Line
+	4400 4300 4400 4900
+Wire Wire Line
+	4400 4900 8300 4900
+Wire Wire Line
+	8300 4900 8300 4000
+Wire Wire Line
+	8300 4000 7950 4000
+Wire Wire Line
+	4200 4400 4300 4400
+Wire Wire Line
+	4300 4400 4300 5000
+Wire Wire Line
+	4300 5000 8400 5000
+Wire Wire Line
+	8400 5000 8400 4100
+Wire Wire Line
+	8400 4100 7950 4100
 $EndSCHEMATC
