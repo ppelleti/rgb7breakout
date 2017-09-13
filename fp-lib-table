@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name myLibrary)(type KiCad)(uri ${KIPRJMOD}/myLibrary.pretty)(options "")(descr ""))
+  (lib (name MF_Aesthetics)(type KiCad)(uri ${KIPRJMOD}/MF_Aesthetics.pretty)(options "")(descr ""))
 )

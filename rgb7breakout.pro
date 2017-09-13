@@ -1,4 +1,4 @@
-update=Monday, September 11, 2017 'PMt' 10:41:21 PM
+update=Wednesday, September 13, 2017 'AMt' 11:06:36 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=myLibrary
+LibName31=MF_Aesthetics

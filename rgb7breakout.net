@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/ppelleti/cad/rgb7breakout/rgb7breakout.sch)
-    (date "Wednesday, September 13, 2017 'AMt' 10:55:55 AM")
+    (date "Wednesday, September 13, 2017 'AMt' 11:15:18 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -77,7 +77,25 @@
         (field (name Description) "Resistor Thick Film 0603 10K Ohm 5% 100mW 75V"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
-      (tstamp 59B7A418)))
+      (tstamp 59B7A418))
+    (comp (ref FID1)
+      (value FIDUCIAL_0.5MM)
+      (footprint MF_Aesthetics:MF_Aesthetics-FIDUCIAL_0.5MM)
+      (libsource (lib MF_Aesthetics) (part FIDUCIAL_0.5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59B974D6))
+    (comp (ref FID2)
+      (value FIDUCIAL_0.5MM)
+      (footprint MF_Aesthetics:MF_Aesthetics-FIDUCIAL_0.5MM)
+      (libsource (lib MF_Aesthetics) (part FIDUCIAL_0.5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59B97508))
+    (comp (ref FID3)
+      (value FIDUCIAL_0.5MM)
+      (footprint MF_Aesthetics:MF_Aesthetics-FIDUCIAL_0.5MM)
+      (libsource (lib MF_Aesthetics) (part FIDUCIAL_0.5MM))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59B9753D)))
   (libparts
     (libpart (lib myLibrary) (part AD-121F2)
       (description "Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode")
@@ -130,6 +148,14 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib MF_Aesthetics) (part FIDUCIAL_0.5MM)
+      (footprints
+        (fp *FIDUCIAL_0.5MM*)
+        (fp *FIDUCIAL_100MIL*))
+      (fields
+        (field (name Reference) FID)
+        (field (name Value) FIDUCIAL_0.5MM)
+        (field (name Footprint) MF_Aesthetics_FIDUCIAL_0.5MM)))
     (libpart (lib device) (part LED_RABG)
       (description "LED RGB, common anode")
       (fields
@@ -210,6 +236,8 @@
         (pin (num 32) (name VCC) (type power_in))
         (pin (num 33) (name PowerPAD) (type power_in)))))
   (libraries
+    (library (logical MF_Aesthetics)
+      (uri /Users/ppelleti/cad/rgb7breakout/MF_Aesthetics.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical myLibrary)
