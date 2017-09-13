@@ -53,6 +53,8 @@ F 0 "D1" H 7050 4750 50  0000 L CNN
 F 1 "AD-121F2" H 7050 4650 50  0000 L CNN
 F 2 "myLibrary:AD-121F2" H 7900 3900 50  0001 C CNN
 F 3 "" H 7900 3900 50  0001 C CNN
+F 4 "AD-121F2" H 7900 3900 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode" H 7900 3900 60  0001 C CNN "Description"
 	1    7900 3900
 	1    0    0    -1  
 $EndComp
@@ -64,6 +66,8 @@ F 0 "U1" H 2950 5500 50  0000 L CNN
 F 1 "TLC5947DAP" H 2950 5400 50  0000 L CNN
 F 2 "myLibrary:HTSSOP-32_6.1x11mm_Pitch0.65mm_ThermalPad" H 3500 4000 50  0001 C CNN
 F 3 "" H 3500 4000 50  0001 C CNN
+F 4 "TLC5947DAP" H 3500 4000 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "24-Channel, 12-Bit PWM LED Driver, HTSSOP" H 3500 4000 60  0001 C CNN "Description"
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
@@ -127,6 +131,8 @@ F 0 "J1" H 1450 4450 50  0000 L CNN
 F 1 "RGB7Breakout_Connector" H 1450 4550 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 1700 3900 60  0001 C CNN
 F 3 "" H 1700 3900 60  0001 C CNN
+F 4 "PRPC008SBAN-M71RC" H 1700 3900 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "CONN HEADER .100\" SNGL R/A 8POS" H 1700 3900 60  0001 C CNN "Description"
 	1    1700 3900
 	1    0    0    -1  
 $EndComp
