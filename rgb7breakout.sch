@@ -372,8 +372,8 @@ F 0 "C1" H 6425 2000 50  0000 L CNN
 F 1 "100uF" H 6425 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 6400 1900 50  0001 C CNN
 F 3 "" H 6400 1900 50  0001 C CNN
-F 4 "MF-CAP-6.3MM-100uF" H 6400 1900 60  0001 C CNN "ManufacturerPartNumber"
-F 5 "Capacitor Aluminum Electrolytic 6.3mm 100uF 20% 35V" H 6400 1900 60  0001 C CNN "Description"
+F 4 "107SML016M" H 6400 1900 60  0001 C CNN "ManufacturerPartNumber"
+F 5 "CAP ALUM 100UF 20% 16V SMD" H 6400 1900 60  0001 C CNN "Description"
 	1    6400 1900
 	1    0    0    -1  
 $EndComp
