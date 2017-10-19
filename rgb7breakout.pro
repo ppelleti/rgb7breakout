@@ -1,4 +1,4 @@
-update=Wednesday, September 13, 2017 'AMt' 11:06:36 AM
+update=Saturday, October 07, 2017 'PMt' 04:21:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=myLibrary
 LibName31=MF_Aesthetics
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
